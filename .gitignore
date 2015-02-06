@@ -31,6 +31,8 @@ game/settings.py
 game/logs/*.log.*
 game/gamesrc/web/static/*
 game/gamesrc/web/media/*
+game/ssh-private.key
+game/ssh-public.key
 
 # Installer logs
 pip-log.txt
