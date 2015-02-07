@@ -140,7 +140,7 @@ class Character(DefaultCharacter):
             self.cmdset.add("game.gamesrc.commands.cmdset.DeadCharacterCmdSet")
 
         if overflow:
-            self.damage_physical += overflow
+            self.damage_physical += math.floor(overflow / 2)
 
 
     @property
